@@ -1,0 +1,201 @@
+{
+  "calendario": {
+    "titulo": "Calendario Mono-Producto Elda Circular",
+    "version": "1.0.0",
+    "descripcion": "Rutas de recogida por tipo de residuo basadas en lógica de ahorro municipal",
+    "vigencia": "2026",
+    "zonas": [
+      {
+        "id": "zona-centro",
+        "nombre": "Centro Histórico",
+        "codigoPostal": "03600",
+        "habitantes": 2500,
+        "contenedoresEstimados": 45
+      },
+      {
+        "id": "zona-norte",
+        "nombre": "Norte Industrial",
+        "codigoPostal": "03601",
+        "habitantes": 3200,
+        "contenedoresEstimados": 58
+      },
+      {
+        "id": "zona-sur",
+        "nombre": "Sur Residencial",
+        "codigoPostal": "03602",
+        "habitantes": 2800,
+        "contenedoresEstimados": 52
+      },
+      {
+        "id": "zona-este",
+        "nombre": "Este Comercial",
+        "codigoPostal": "03603",
+        "habitantes": 1900,
+        "contenedoresEstimados": 35
+      }
+    ],
+    "tiposResiduos": [
+      {
+        "id": "organica",
+        "nombre": "Orgánico",
+        "color": "#8B7355",
+        "icono": "🥕",
+        "volumenMensualTm": 45,
+        "costoTratamiento": 120,
+        "ahorroPotencial": {
+          "cantidad": 45,
+          "unidad": "toneladas",
+          "valorEuro": 4050,
+          "descripcion": "Compostaje local reduce transporte"
+        }
+      },
+      {
+        "id": "envases",
+        "nombre": "Envases Ligeros",
+        "color": "#FFD700",
+        "icono": "♻️",
+        "volumenMensualTm": 12,
+        "costoTratamiento": 85,
+        "ahorroPotencial": {
+          "cantidad": 12,
+          "unidad": "toneladas",
+          "valorEuro": 1200,
+          "descripcion": "Reciclaje reduce demanda de materias primas"
+        }
+      },
+      {
+        "id": "resto",
+        "nombre": "Resto (Mixto)",
+        "color": "#808080",
+        "icono": "🗑️",
+        "volumenMensualTm": 28,
+        "costoTratamiento": 95,
+        "ahorroPotencial": {
+          "cantidad": 28,
+          "unidad": "toneladas",
+          "valorEuro": 840,
+          "descripcion": "Minimizar resto optimiza vertedero"
+        }
+      }
+    ],
+    "rutasSemanal": [
+      {
+        "semana": 1,
+        "diasLaborales": "Lu-Vi",
+        "horarios": [
+          {
+            "dia": "Lunes",
+            "tipo": "organica",
+            "horaInicio": "08:00",
+            "horaFin": "14:00",
+            "zonasAtenidas": ["zona-centro", "zona-este"],
+            "capacidadCamion": 10,
+            "frecuencia": "Semanal"
+          },
+          {
+            "dia": "Martes",
+            "tipo": "envases",
+            "horaInicio": "08:00",
+            "horaFin": "12:00",
+            "zonasAtenidas": ["zona-norte", "zona-sur"],
+            "capacidadCamion": 5,
+            "frecuencia": "Semanal"
+          },
+          {
+            "dia": "Miércoles",
+            "tipo": "organica",
+            "horaInicio": "08:00",
+            "horaFin": "14:00",
+            "zonasAtenidas": ["zona-norte", "zona-sur"],
+            "capacidadCamion": 10,
+            "frecuencia": "Semanal"
+          },
+          {
+            "dia": "Jueves",
+            "tipo": "envases",
+            "horaInicio": "08:00",
+            "horaFin": "12:00",
+            "zonasAtenidas": ["zona-centro", "zona-este"],
+            "capacidadCamion": 5,
+            "frecuencia": "Semanal"
+          },
+          {
+            "dia": "Viernes",
+            "tipo": "resto",
+            "horaInicio": "08:00",
+            "horaFin": "16:00",
+            "zonasAtenidas": ["zona-centro", "zona-norte", "zona-sur", "zona-este"],
+            "capacidadCamion": 15,
+            "frecuencia": "Semanal",
+            "especial": "Día de Trazabilidad - Educación Ciudadana"
+          }
+        ]
+      }
+    ],
+    "calendarioMensual": {
+      "enero2026": [
+        {
+          "fecha": "2026-01-05",
+          "semana": 1,
+          "eventos": ["Inicio Año - Organica Centro"]
+        },
+        {
+          "fecha": "2026-01-12",
+          "semana": 2,
+          "eventos": ["Viernes Trazabilidad #1"]
+        },
+        {
+          "fecha": "2026-01-19",
+          "semana": 3,
+          "eventos": ["Inspección VAERSA"]
+        },
+        {
+          "fecha": "2026-01-26",
+          "semana": 4,
+          "eventos": ["Viernes Trazabilidad #2"]
+        }
+      ]
+    },
+    "indicadoresAhorro": {
+      "ahorroMensualEstimado": {
+        "cantidad": 85,
+        "unidad": "toneladas",
+        "valorEuro": 6090,
+        "porCiudadano": 1.57,
+        "unidadCiudadano": "€/mes"
+      },
+      "metasAnuales": {
+        "toneladas": 1020,
+        "ahorroTotal": 73080,
+        "ahorroPerCapita": 18.8,
+        "reduccionVertedero": "45%"
+      }
+    },
+    "horariosCiudadanía": {
+      "descripcion": "Ventanas de tiempo recomendadas para ciudadanía",
+      "organica": {
+        "dias": ["Lunes", "Miércoles"],
+        "horaRecomendada": "19:00-21:00",
+        "mensaje": "Orgánico después de la cena"
+      },
+      "envases": {
+        "dias": ["Martes", "Jueves"],
+        "horaRecomendada": "19:00-21:00",
+        "mensaje": "Envases depurados correctamente"
+      },
+      "resto": {
+        "dias": ["Viernes"],
+        "horaRecomendada": "20:00-22:00",
+        "mensaje": "Resto únicamente los viernes"
+      }
+    },
+    "validacion": {
+      "metodologia": "QR Code + Pegatina Roja Local",
+      "auditoría": "Registro automático en localStorage",
+      "transparencia": "Datos públicos por barrio",
+      "participacion": "Ciudadanía como "Auditores Verdes""
+    },
+    "ultimaActualizacion": "2026-05-09",
+    "proximasRevisiones": ["2026-06-01", "2026-09-01", "2027-01-01"]
+  }
+}

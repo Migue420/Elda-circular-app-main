@@ -1,0 +1,6 @@
+{
+  "name": "Elda Circular",
+  "description": "PWA para el Ayuntamiento de Elda y FOBESA enfocada en la economía circular y el ahorro municipal. Reduce, reutiliza y gana Elda-Coins.",
+  "requestFramePermissions": ["camera", "geolocation"],
+  "majorCapabilities": []
+}

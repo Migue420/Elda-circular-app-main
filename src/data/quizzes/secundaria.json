@@ -1,0 +1,171 @@
+{
+  "nivel": "Secundaria",
+  "edad": "12-18 años",
+  "titulo": "Cuestionario Z-ero - Nivel Secundaria",
+  "descripcion": "Educación circular para estudiantes de secundaria con enfoque técnico",
+  "puntuacionMaxima": 100,
+  "modulos": [
+    {
+      "id": "economia-circular",
+      "titulo": "Economía Circular y Sostenibilidad",
+      "preguntas": [
+        {
+          "id": "q1",
+          "pregunta": "¿Cuál es el ahorro económico por tonelada en el sistema Elda Circular?",
+          "tipo": "multiple-choice",
+          "opciones": [
+            {
+              "id": "a",
+              "texto": "Menos de 50€",
+              "correcta": false
+            },
+            {
+              "id": "b",
+              "texto": "Entre 50-80€",
+              "correcta": false
+            },
+            {
+              "id": "c",
+              "texto": "Más de 90€",
+              "correcta": true,
+              "explicacion": "¡Correcto! El sistema Elda Circular ahorra más de 90€ por tonelada gestionada."
+            }
+          ],
+          "puntos": 15
+        },
+        {
+          "id": "q2",
+          "pregunta": "¿Qué es la Ley 7/2022 en el contexto de Elda?",
+          "tipo": "multiple-choice",
+          "opciones": [
+            {
+              "id": "a",
+              "texto": "Ley de conservación de energía",
+              "correcta": false
+            },
+            {
+              "id": "b",
+              "texto": "Protocolo de gestión circular de residuos",
+              "correcta": true,
+              "explicacion": "Exacto. La Ley 7/2022 establece protocolos para economía circular."
+            },
+            {
+              "id": "c",
+              "texto": "Normativa de transporte urbano",
+              "correcta": false
+            }
+          ],
+          "puntos": 15
+        }
+      ],
+      "puntuacionTotal": 30
+    },
+    {
+      "id": "trazabilidad-qr",
+      "titulo": "Sistema QR y Trazabilidad",
+      "preguntas": [
+        {
+          "id": "q3",
+          "pregunta": "¿Cuál es la función principal del código QR en Elda Circular?",
+          "tipo": "multiple-choice",
+          "opciones": [
+            {
+              "id": "a",
+              "texto": "Decoración de contenedores",
+              "correcta": false
+            },
+            {
+              "id": "b",
+              "texto": "Seguimiento y trazabilidad del residuo",
+              "correcta": true,
+              "explicacion": "¡Correcto! El QR permite rastrear todo el ciclo de vida del residuo."
+            },
+            {
+              "id": "c",
+              "texto": "Publicidad municipal",
+              "correcta": false
+            }
+          ],
+          "puntos": 15
+        },
+        {
+          "id": "q4",
+          "pregunta": "¿Qué información se captura en los Viernes de Trazabilidad?",
+          "tipo": "multiple-choice",
+          "opciones": [
+            {
+              "id": "a",
+              "texto": "Solo el volumen de residuos",
+              "correcta": false
+            },
+            {
+              "id": "b",
+              "texto": "Origen, destino, composición y impacto ambiental",
+              "correcta": true,
+              "explicacion": "Exacto. La trazabilidad es completa y educativa."
+            },
+            {
+              "id": "c",
+              "texto": "Nada relevante",
+              "correcta": false
+            }
+          ],
+          "puntos": 15
+        }
+      ],
+      "puntuacionTotal": 30
+    },
+    {
+      "id": "impacto-ambiental",
+      "titulo": "Impacto Ambiental del Medio Vinalopó",
+      "preguntas": [
+        {
+          "id": "q5",
+          "pregunta": "¿Cuál es el objetivo de reducción de emisiones en Elda?",
+          "tipo": "multiple-choice",
+          "opciones": [
+            {
+              "id": "a",
+              "texto": "10%",
+              "correcta": false
+            },
+            {
+              "id": "b",
+              "texto": "25%",
+              "correcta": false
+            },
+            {
+              "id": "c",
+              "texto": "45%",
+              "correcta": true,
+              "explicacion": "¡Exacto! La meta es reducir emisiones un 45% en la región."
+            }
+          ],
+          "puntos": 15
+        }
+      ],
+      "puntuacionTotal": 15
+    }
+  ],
+  "recompensas": [
+    {
+      "puntuacionMinima": 85,
+      "titulo": "Especialista Circular",
+      "eldasCoins": 150,
+      "icono": "🔬"
+    },
+    {
+      "puntuacionMinima": 70,
+      "titulo": "Promotor Sostenible",
+      "eldasCoins": 75,
+      "icono": "🌿"
+    },
+    {
+      "puntuacionMinima": 50,
+      "titulo": "Educador Z-ero",
+      "eldasCoins": 30,
+      "icono": "📚"
+    }
+  ],
+  "ultimaActualizacion": "2026-05-09"
+}

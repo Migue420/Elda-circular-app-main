@@ -1,0 +1,147 @@
+{
+  "nivel": "Primaria",
+  "edad": "6-12 años",
+  "titulo": "Cuestionario Z-ero - Nivel Primaria",
+  "descripcion": "Educación circular para niños de primaria",
+  "puntuacionMaxima": 100,
+  "modulos": [
+    {
+      "id": "basico-residuos",
+      "titulo": "¿Qué son los residuos?",
+      "preguntas": [
+        {
+          "id": "q1",
+          "pregunta": "¿Cuál de estos es un residuo orgánico?",
+          "tipo": "multiple-choice",
+          "opciones": [
+            {
+              "id": "a",
+              "texto": "Una botella de plástico",
+              "correcta": false
+            },
+            {
+              "id": "b",
+              "texto": "Una cáscaras de plátano",
+              "correcta": true,
+              "explicacion": "¡Correcto! Las cáscaras son materia orgánica que se descompone."
+            },
+            {
+              "id": "c",
+              "texto": "Un papel de aluminio",
+              "correcta": false
+            }
+          ],
+          "puntos": 10
+        },
+        {
+          "id": "q2",
+          "pregunta": "¿A dónde va el residuo orgánico en Elda?",
+          "tipo": "multiple-choice",
+          "opciones": [
+            {
+              "id": "a",
+              "texto": "Al contenedor marrón",
+              "correcta": true,
+              "explicacion": "¡Excelente! El contenedor marrón es para residuos orgánicos."
+            },
+            {
+              "id": "b",
+              "texto": "Al contenedor amarillo",
+              "correcta": false
+            },
+            {
+              "id": "c",
+              "texto": "A la calle",
+              "correcta": false
+            }
+          ],
+          "puntos": 10
+        }
+      ],
+      "puntuacionTotal": 20
+    },
+    {
+      "id": "reciclaje-elda",
+      "titulo": "Reciclaje en Elda Circular",
+      "preguntas": [
+        {
+          "id": "q3",
+          "pregunta": "¿Cuántas toneladas ahorramos cuando separamos bien?",
+          "tipo": "multiple-choice",
+          "opciones": [
+            {
+              "id": "a",
+              "texto": "5 toneladas",
+              "correcta": false
+            },
+            {
+              "id": "b",
+              "texto": "Más de 90 euros por tonelada",
+              "correcta": true,
+              "explicacion": "¡Sí! Elda ahorra más de 90€ por tonelada con un buen sistema."
+            },
+            {
+              "id": "c",
+              "texto": "Nada especial",
+              "correcta": false
+            }
+          ],
+          "puntos": 15
+        }
+      ],
+      "puntuacionTotal": 15
+    },
+    {
+      "id": "elda-coins",
+      "titulo": "Elda-Coins: Tu Recompensa",
+      "preguntas": [
+        {
+          "id": "q4",
+          "pregunta": "¿Qué son los Elda-Coins?",
+          "tipo": "multiple-choice",
+          "opciones": [
+            {
+              "id": "a",
+              "texto": "Monedas de verdad",
+              "correcta": false
+            },
+            {
+              "id": "b",
+              "texto": "Puntos que ganas por reciclar bien",
+              "correcta": true,
+              "explicacion": "¡Correcto! Los Elda-Coins son tu recompensa por ser responsable."
+            },
+            {
+              "id": "c",
+              "texto": "Caramelos",
+              "correcta": false
+            }
+          ],
+          "puntos": 15
+        }
+      ],
+      "puntuacionTotal": 15
+    }
+  ],
+  "recompensas": [
+    {
+      "puntuacionMinima": 80,
+      "titulo": "Guardián Ecológico",
+      "eldasCoins": 50,
+      "icono": "🌍"
+    },
+    {
+      "puntuacionMinima": 60,
+      "titulo": "Aprendiz Circular",
+      "eldasCoins": 25,
+      "icono": "♻️"
+    },
+    {
+      "puntuacionMinima": 0,
+      "titulo": "Iniciado Z-ero",
+      "eldasCoins": 10,
+      "icono": "🌱"
+    }
+  ],
+  "ultimaActualizacion": "2026-05-09"
+}

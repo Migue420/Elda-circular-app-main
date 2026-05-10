@@ -1,0 +1,138 @@
+{
+  "eldaCoins": {
+    "titulo": "Elda-Coins: Sistema de Incentivos Circular",
+    "version": "1.0.0",
+    "descripcion": "Moneda digital local para recompensas de comportamiento circular",
+    "economia": {
+      "tasaConversion": {
+        "EUR": 1,
+        "eldaCoin": 0.85,
+        "descripcion": "Cada Elda-Coin equivale a 0.85€ en beneficios municipales"
+      },
+      "capitalInicial": 50000,
+      "unidad": "EC"
+    },
+    "actividades": [
+      {
+        "id": "reciclar-organica",
+        "nombre": "Reciclar Orgánico",
+        "puntos": 10,
+        "frecuencia": "Por entrega",
+        "descripcion": "Depositar residuo orgánico en la ruta correcta"
+      },
+      {
+        "id": "reciclar-envases",
+        "nombre": "Reciclar Envases",
+        "puntos": 8,
+        "frecuencia": "Por entrega",
+        "descripcion": "Separar envases ligeros correctamente"
+      },
+      {
+        "id": "reciclar-resto",
+        "nombre": "Residuo Resto Limpio",
+        "puntos": 5,
+        "frecuencia": "Por entrega",
+        "descripcion": "Depositar resto sin contaminación"
+      },
+      {
+        "id": "quiz-completar",
+        "nombre": "Completar Quiz Z-ero",
+        "puntos": 50,
+        "frecuencia": "Una vez por nivel",
+        "descripcion": "Completar cuestionarios educativos"
+      },
+      {
+        "id": "viernes-trazabilidad",
+        "nombre": "Participar Viernes Trazabilidad",
+        "puntos": 25,
+        "frecuencia": "Semanal",
+        "descripcion": "Asistir a eventos educativos de seguimiento"
+      },
+      {
+        "id": "referral",
+        "nombre": "Invitar Amigos",
+        "puntos": 100,
+        "frecuencia": "Por amigo",
+        "descripcion": "Cada amigo que se registre genera bonificación"
+      },
+      {
+        "id": "ruta-consistente",
+        "nombre": "Mes Consistente",
+        "puntos": 150,
+        "frecuencia": "Mensual",
+        "descripcion": "Separación correcta en todas las semanas del mes"
+      }
+    ],
+    "canjes": [
+      {
+        "id": "descuento-municipal",
+        "nombre": "Descuento Municipal",
+        "coste": 50,
+        "valor": "5€ en servicios municipales",
+        "categoria": "servicios"
+      },
+      {
+        "id": "entrada-evento",
+        "nombre": "Entrada a Evento Local",
+        "coste": 100,
+        "valor": "Acceso a actividades comunitarias",
+        "categoria": "eventos"
+      },
+      {
+        "id": "certificado-digital",
+        "nombre": "Certificado Guardián Circular",
+        "coste": 200,
+        "valor": "Reconocimiento profesional",
+        "categoria": "reconocimiento"
+      },
+      {
+        "id": "donacion-ambiental",
+        "nombre": "Donación a Proyecto Verde",
+        "coste": 75,
+        "valor": "Plantación de árbol en Elda",
+        "categoria": "sostenibilidad"
+      }
+    ],
+    "pegatina-roja": {
+      "titulo": "Sistema de Pegatina Roja",
+      "descripcion": "Validación de comportamiento responsable sin servidor externo",
+      "nivelInfracciones": [
+        {
+          "nivel": 0,
+          "estado": "Verde",
+          "significado": "Separación correcta",
+          "multa": 0
+        },
+        {
+          "nivel": 1,
+          "estado": "Amarilla",
+          "significado": "Contaminación detectada",
+          "multa": 0,
+          "aviso": true
+        },
+        {
+          "nivel": 2,
+          "estado": "Roja",
+          "significado": "Incumplimiento reiterado",
+          "multa": 50,
+          "descripcion": "Requiere inspección municipal"
+        }
+      ],
+      "persistencia": "LocalStorage + validación ciudadana"
+    },
+    "mecanismoDePersistencia": {
+      "tecnologia": "LocalStorage (Phase 1)",
+      "sincronizacion": "Manual al conectar servidor",
+      "validacion": "QR Code + ciudadano responsable",
+      "seguridad": "Firmas digitales locales",
+      "respaldo": "Blockchain para auditoría final"
+    },
+    "estadisticas": {
+      "usuariosRegistrados": 0,
+      "eldaCoinsDistribuidos": 0,
+      "toneladsCirculadas": 0,
+      "ahorroGenerado": 0
+    },
+    "ultimaActualizacion": "2026-05-09"
+  }
+}

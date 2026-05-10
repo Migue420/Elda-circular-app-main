@@ -1,0 +1,181 @@
+{
+  "nivel": "Universidad",
+  "edad": "18+ años",
+  "titulo": "Cuestionario Z-ero - Nivel Universidad",
+  "descripcion": "Educación circular avanzada para estudiantes universitarios y profesionales",
+  "puntuacionMaxima": 100,
+  "modulos": [
+    {
+      "id": "modelo-negocios-circular",
+      "titulo": "Modelo de Negocio Circular de Elda",
+      "preguntas": [
+        {
+          "id": "q1",
+          "pregunta": "¿Cuál es el margen de ahorro por tonelada en la propuesta técnica de Elda Circular?",
+          "tipo": "multiple-choice",
+          "opciones": [
+            {
+              "id": "a",
+              "texto": "Entre 75-85€",
+              "correcta": false
+            },
+            {
+              "id": "b",
+              "texto": "Más de 90€ con optimización logística",
+              "correcta": true,
+              "explicacion": "Correcto. La propuesta técnica demuestra ahorros de más de 90€/ton con VAERSA."
+            },
+            {
+              "id": "c",
+              "texto": "Menos de 50€",
+              "correcta": false
+            }
+          ],
+          "puntos": 20
+        },
+        {
+          "id": "q2",
+          "pregunta": "¿Cómo se estructura el ROI en el contrato Elda-VAERSA?",
+          "tipo": "multiple-choice",
+          "opciones": [
+            {
+              "id": "a",
+              "texto": "Por volumen de residuos procesados",
+              "correcta": true,
+              "explicacion": "Exacto. El ROI está vinculado a toneladas procesadas y eficiencia operativa."
+            },
+            {
+              "id": "b",
+              "texto": "Únicamente por participación ciudadana",
+              "correcta": false
+            },
+            {
+              "id": "c",
+              "texto": "Sin métricas definidas",
+              "correcta": false
+            }
+          ],
+          "puntos": 20
+        }
+      ],
+      "puntuacionTotal": 40
+    },
+    {
+      "id": "tecnologia-blockchain",
+      "titulo": "Trazabilidad y Tecnología Blockchain",
+      "preguntas": [
+        {
+          "id": "q3",
+          "pregunta": "¿Cuál es la ventaja de usar QR + Blockchain en Elda Circular?",
+          "tipo": "multiple-choice",
+          "opciones": [
+            {
+              "id": "a",
+              "texto": "Solo facilita marketing",
+              "correcta": false
+            },
+            {
+              "id": "b",
+              "texto": "Transparencia completa, auditoría permanente e inmutabilidad de datos",
+              "correcta": true,
+              "explicacion": "¡Exacto! Blockchain garantiza trazabilidad verificable para auditorías municipales."
+            },
+            {
+              "id": "c",
+              "texto": "Reduce costos sin transparencia",
+              "correcta": false
+            }
+          ],
+          "puntos": 20
+        },
+        {
+          "id": "q4",
+          "pregunta": "¿Cómo se vincula LocalStorage con la persistencia de Elda-Coins?",
+          "tipo": "multiple-choice",
+          "opciones": [
+            {
+              "id": "a",
+              "texto": "Es innecesario en fase piloto",
+              "correcta": false
+            },
+            {
+              "id": "b",
+              "texto": "Permite validación offline y sincronización posterior sin depender de servidores centralizados",
+              "correcta": true,
+              "explicacion": "Correcto. LocalStorage resuelve la persistencia en fase piloto sin infraestructura externa."
+            },
+            {
+              "id": "c",
+              "texto": "Solo almacena datos de prueba",
+              "correcta": false
+            }
+          ],
+          "puntos": 20
+        }
+      ],
+      "puntuacionTotal": 40
+    },
+    {
+      "id": "regulacion-y-compliance",
+      "titulo": "Marco Regulatorio (Ley 7/2022) y Compliance",
+      "preguntas": [
+        {
+          "id": "q5",
+          "pregunta": "¿Qué articulos clave de la Ley 7/2022 se implementan en Elda?",
+          "tipo": "multiple-choice",
+          "opciones": [
+            {
+              "id": "a",
+              "texto": "Solo responsabilidad del productor",
+              "correcta": false
+            },
+            {
+              "id": "b",
+              "texto": "Separación en origen, trazabilidad, responsabilidad extendida del productor y educación ambiental",
+              "correcta": true,
+              "explicacion": "Correcto. La Ley 7/2022 integra todos estos pilares en Elda Circular."
+            },
+            {
+              "id": "c",
+              "texto": "Solo disposición final",
+              "correcta": false
+            }
+          ],
+          "puntos": 20
+        }
+      ],
+      "puntuacionTotal": 20
+    }
+  ],
+  "recompensas": [
+    {
+      "puntuacionMinima": 90,
+      "titulo": "Investigador Circular",
+      "eldasCoins": 300,
+      "icono": "🧬",
+      "beneficios": [
+        "Acceso a reportes internos",
+        "Colaboración VAERSA",
+        "Publicación de research"
+      ]
+    },
+    {
+      "puntuacionMinima": 75,
+      "titulo": "Consultor de Sostenibilidad",
+      "eldasCoins": 200,
+      "icono": "🎓",
+      "beneficios": [
+        "Certificado profesional",
+        "Red de expertos",
+        "Oportunidades laborales"
+      ]
+    },
+    {
+      "puntuacionMinima": 60,
+      "titulo": "Académico Z-ero",
+      "eldasCoins": 100,
+      "icono": "📖"
+    }
+  ],
+  "ultimaActualizacion": "2026-05-09"
+}

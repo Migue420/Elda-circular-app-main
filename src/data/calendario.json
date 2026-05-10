@@ -1,0 +1,98 @@
+{
+  "calendario": {
+    "titulo": "Calendario Mono-Producto Elda Circular",
+    "descripcion": "Rutas de recogida organizadas por tipo de residuo (Orgánica, Envases, Resto)",
+    "año": 2026,
+    "municipio": "Elda",
+    "productos": [
+      {
+        "id": "organica",
+        "nombre": "Residuo Orgánico",
+        "color": "#8B4513",
+        "descripcion": "Restos de comida, podas y jardín",
+        "ahorroTonelada": 92.50,
+        "rutas": [
+          {
+            "dia": "lunes",
+            "horario": "08:00-12:00",
+            "sectores": ["Centro", "Norte"]
+          },
+          {
+            "dia": "miércoles",
+            "horario": "08:00-12:00",
+            "sectores": ["Sur", "Este"]
+          },
+          {
+            "dia": "viernes",
+            "horario": "16:00-20:00",
+            "sectores": ["Todas las zonas"]
+          }
+        ]
+      },
+      {
+        "id": "envases",
+        "nombre": "Envases Ligeros",
+        "color": "#FFD700",
+        "descripcion": "Plásticos, latas y briks",
+        "ahorroTonelada": 85.00,
+        "rutas": [
+          {
+            "dia": "martes",
+            "horario": "08:00-12:00",
+            "sectores": ["Centro", "Norte"]
+          },
+          {
+            "dia": "jueves",
+            "horario": "08:00-12:00",
+            "sectores": ["Sur", "Este"]
+          }
+        ]
+      },
+      {
+        "id": "resto",
+        "nombre": "Resto (Rechazo)",
+        "color": "#808080",
+        "descripcion": "Residuos no clasificables",
+        "ahorroTonelada": 78.00,
+        "rutas": [
+          {
+            "dia": "lunes",
+            "horario": "14:00-18:00",
+            "sectores": ["Todas las zonas"]
+          },
+          {
+            "dia": "jueves",
+            "horario": "14:00-18:00",
+            "sectores": ["Todas las zonas"]
+          }
+        ]
+      }
+    ],
+    "campañas": [
+      {
+        "id": "viernes_trazabilidad",
+        "nombre": "Viernes de Trazabilidad",
+        "descripcion": "Iniciativa educativa en colegios sobre seguimiento de residuos",
+        "frecuencia": "Cada viernes",
+        "objetivo": "Concienciar sobre ciclo completo de reciclaje"
+      },
+      {
+        "id": "elda_coins",
+        "nombre": "Elda-Coins Rewards",
+        "descripcion": "Sistema de incentivos para ciudadanos responsables",
+        "moneda": "Elda-Coins",
+        "beneficios": [
+          "Descuentos municipales",
+          "Acceso a eventos",
+          "Reconocimiento comunitario"
+        ]
+      }
+    ],
+    "metricas": {
+      "ahorroMensualEstimado": "€ 45,000",
+      "reduccionEmisiones": "45%",
+      "participacionCiudadana": "Meta: 80%"
+    },
+    "ultimaActualizacion": "2026-05-09"
+  }
+}
