@@ -89,7 +89,12 @@ Elda-circular-app/
 │       ├── qr-validator.ts        # Validación QR
 │       └── coins-manager.ts       # Gestión de Elda-Coins
 │
-└── README.md                      # Este archivo
+├── tsconfig.json
+├── vite.config.ts
+├── package.json
+├── index.html
+├── metadata.json
+└── README.md
 ```
 
 ---
@@ -99,7 +104,7 @@ Elda-circular-app/
 | Tecnología | Uso |
 |-----------|-----|
 | **TypeScript** | Lógica robusta y tipada |
-| **React** | Interfaz reactiva |
+| **React 19** | Interfaz reactiva |
 | **Vite** | Build ultra rápido |
 | **Tailwind CSS** | Diseño boogie pop art |
 | **PWA** | Funciona offline |
@@ -233,8 +238,8 @@ Menú → "Mi Ruta" → Filtra por zona → Horarios actualizado
 
 ### Instalación
 ```bash
-git clone https://github.com/Migue420/Elda-circular-app.git
-cd Elda-circular-app
+git clone https://github.com/Migue420/Elda-circular-app-main.git
+cd Elda-circular-app-main
 npm install
 npm run dev
 ```
@@ -248,8 +253,7 @@ npm run preview  # Vista previa de build
 
 ### Testing
 ```bash
-npm run test     # Suite de tests
-npm run lint     # Validar código
+npm run lint     # Validar código TypeScript
 ```
 
 ---
@@ -302,4 +306,4 @@ Este proyecto está bajo **licencia municipal abierta** para la educación y sos
 
 **Elda Circular: Transformando la Basura en Valor 🌍♻️💚**
 
-*Last updated: 2026-05-09*
+*Last updated: 2026-05-10*

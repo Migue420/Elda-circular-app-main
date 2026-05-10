@@ -2,5 +2,12 @@
   "name": "Elda Circular",
   "description": "PWA para el Ayuntamiento de Elda y FOBESA enfocada en la economía circular y el ahorro municipal. Reduce, reutiliza y gana Elda-Coins.",
   "requestFramePermissions": ["camera", "geolocation"],
-  "majorCapabilities": []
+  "majorCapabilities": [
+    "Escanear códigos QR",
+    "Validar separación de residuos",
+    "Completar cuestionarios educativos",
+    "Ganar Elda-Coins",
+    "Ver calendarios de recolección",
+    "Acceder a contenido multimedia"
+  ]
 }
